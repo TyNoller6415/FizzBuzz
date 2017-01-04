@@ -9,14 +9,14 @@ public class Main {
 			
 			System.out.println(counter);
 			
-			if(counter % 3 == 0) {
+			if(counter %15 == 0){
 				System.out.println("fizz");
-			}
-			if(counter % 5 == 0) {
+			} else if(counter %5 == 0) {
 				System.out.println("buzz");
-			}
-			if(counter % 15 == 0) {
+			} else if(counter %3 == 0) {
 				System.out.println("fizzbuzz");
+			} else {
+				System.out.println(counter);
 			}
 			
 		}
