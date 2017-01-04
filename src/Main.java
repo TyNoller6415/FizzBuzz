@@ -7,8 +7,6 @@ public class Main {
 		
 		for(counter = 0; counter < 100; counter++) {
 			
-			System.out.println(counter);
-			
 			if(counter %15 == 0){
 				System.out.println("fizzbuzz");
 			} else if(counter %5 == 0) {
