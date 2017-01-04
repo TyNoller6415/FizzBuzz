@@ -10,11 +10,11 @@ public class Main {
 			System.out.println(counter);
 			
 			if(counter %15 == 0){
-				System.out.println("fizz");
+				System.out.println("fizzbuzz");
 			} else if(counter %5 == 0) {
 				System.out.println("buzz");
 			} else if(counter %3 == 0) {
-				System.out.println("fizzbuzz");
+				System.out.println("fizz");
 			} else {
 				System.out.println(counter);
 			}
